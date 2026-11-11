@@ -1,0 +1,47 @@
+{
+  "$schema": "https://opencode.ai/desktop-theme.json",
+  "name": "Zema",
+  "id": "zema",
+  "light": {
+    "palette": {
+      "neutral": "#faf9f5",
+      "ink": "#141413",
+      "primary": "#d97757",
+      "accent": "#bd5d3a",
+      "success": "#4f9d69",
+      "warning": "#c98a2c",
+      "error": "#c4433f",
+      "info": "#6b7a8f"
+    },
+    "overrides": {
+      "syntax-comment": "#8a8680",
+      "syntax-keyword": "#bd5d3a",
+      "syntax-string": "#4f9d69",
+      "syntax-primitive": "#c98a2c",
+      "syntax-property": "#141413",
+      "syntax-type": "#6b7a8f",
+      "syntax-constant": "#d97757"
+    }
+  },
+  "dark": {
+    "palette": {
+      "neutral": "#0a0a0a",
+      "ink": "#e8e6e3",
+      "primary": "#d97757",
+      "accent": "#e2957a",
+      "success": "#7fc794",
+      "warning": "#e0a458",
+      "error": "#e5706b",
+      "info": "#8a95a3"
+    },
+    "overrides": {
+      "syntax-comment": "#8a8680",
+      "syntax-keyword": "#e2957a",
+      "syntax-string": "#7fc794",
+      "syntax-primitive": "#e0a458",
+      "syntax-property": "#e8e6e3",
+      "syntax-type": "#8a95a3",
+      "syntax-constant": "#d97757"
+    }
+  }
+}

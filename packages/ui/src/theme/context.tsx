@@ -100,6 +100,7 @@ const names = new Map(
     tokyonight: "Tokyonight",
     vercel: "Vercel",
     vesper: "Vesper",
+    zema: "Zema",
     zenburn: "Zenburn",
   }),
 )
