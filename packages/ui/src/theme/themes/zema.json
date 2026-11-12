@@ -11,16 +11,38 @@
       "success": "#4f9d69",
       "warning": "#c98a2c",
       "error": "#c4433f",
-      "info": "#6b7a8f"
+      "info": "#6b7a8f",
+      "interactive": "#bd5d3a",
+      "diffAdd": "#4f9d69",
+      "diffDelete": "#c4433f"
     },
     "overrides": {
+      "text-weak": "#6e6a64",
       "syntax-comment": "#8a8680",
       "syntax-keyword": "#bd5d3a",
       "syntax-string": "#4f9d69",
       "syntax-primitive": "#c98a2c",
+      "syntax-variable": "#c4433f",
       "syntax-property": "#141413",
       "syntax-type": "#6b7a8f",
-      "syntax-constant": "#d97757"
+      "syntax-constant": "#d97757",
+      "syntax-operator": "#6b7a8f",
+      "syntax-punctuation": "#141413",
+      "syntax-object": "#c4433f",
+      "markdown-heading": "#bd5d3a",
+      "markdown-text": "#141413",
+      "markdown-link": "#bd5d3a",
+      "markdown-link-text": "#6b7a8f",
+      "markdown-code": "#4f9d69",
+      "markdown-block-quote": "#6b7a8f",
+      "markdown-emph": "#c98a2c",
+      "markdown-strong": "#bd5d3a",
+      "markdown-horizontal-rule": "#8a8680",
+      "markdown-list-item": "#d97757",
+      "markdown-list-enumeration": "#6b7a8f",
+      "markdown-image": "#d97757",
+      "markdown-image-text": "#6b7a8f",
+      "markdown-code-block": "#141413"
     }
   },
   "dark": {
@@ -32,16 +54,38 @@
       "success": "#7fc794",
       "warning": "#e0a458",
       "error": "#e5706b",
-      "info": "#8a95a3"
+      "info": "#8a95a3",
+      "interactive": "#e2957a",
+      "diffAdd": "#7fc794",
+      "diffDelete": "#e5706b"
     },
     "overrides": {
+      "text-weak": "#9b968f",
       "syntax-comment": "#8a8680",
       "syntax-keyword": "#e2957a",
       "syntax-string": "#7fc794",
       "syntax-primitive": "#e0a458",
+      "syntax-variable": "#e5706b",
       "syntax-property": "#e8e6e3",
       "syntax-type": "#8a95a3",
-      "syntax-constant": "#d97757"
+      "syntax-constant": "#d97757",
+      "syntax-operator": "#8a95a3",
+      "syntax-punctuation": "#e8e6e3",
+      "syntax-object": "#e5706b",
+      "markdown-heading": "#e2957a",
+      "markdown-text": "#e8e6e3",
+      "markdown-link": "#e2957a",
+      "markdown-link-text": "#8a95a3",
+      "markdown-code": "#7fc794",
+      "markdown-block-quote": "#8a95a3",
+      "markdown-emph": "#e0a458",
+      "markdown-strong": "#e2957a",
+      "markdown-horizontal-rule": "#8a8680",
+      "markdown-list-item": "#d97757",
+      "markdown-list-enumeration": "#8a95a3",
+      "markdown-image": "#d97757",
+      "markdown-image-text": "#8a95a3",
+      "markdown-code-block": "#e8e6e3"
     }
   }
 }

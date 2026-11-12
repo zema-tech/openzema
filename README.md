@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://opencode.ai">
+  <a href="https://github.com/zema-tech/openzema">
     <picture>
       <source srcset=".github/assets/logo-ornate-dark.svg" media="(prefers-color-scheme: dark)">
       <source srcset=".github/assets/logo-ornate-light.svg" media="(prefers-color-scheme: light)">
@@ -7,12 +7,28 @@
     </picture>
   </a>
 </p>
-<p align="center">The open source AI coding agent.</p>
+<p align="center">The open source AI coding agent — fork con il tema <strong>Zema</strong>.</p>
 <p align="center">
-  <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
-  <a href="https://www.npmjs.com/package/@opencode/cli"><img alt="npm" src="https://img.shields.io/npm/v/@opencode/cli?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/opencode/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/release.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/zema-tech/openzema/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/zema-tech/openzema/release.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/zema-tech/openzema/blob/dev/LICENSE"><img alt="License" src="https://img.shields.io/github/license/zema-tech/openzema?style=flat-square" /></a>
 </p>
+
+> **Questo è un fork di [`anomalyco/opencode`](https://github.com/anomalyco/opencode).**
+> Non è affiliato, sponsorizzato né supportato dal team OpenCode.
+> L'unica differenza rispetto all'upstream è il tema `zema`, incluso di default in `packages/ui/src/theme/themes/zema.json`.
+> Tutto il resto — codice, documentazione, comandi di installazione — è upstream.
+
+## Provenienza
+
+| Campo | Valore |
+| --- | --- |
+| Upstream | [`anomalyco/opencode`](https://github.com/anomalyco/opencode) |
+| Fork | [`zema-tech/openzema`](https://github.com/zema-tech/openzema) |
+| Branch | `zema-theme` (base `dev`) |
+| Versione | `2.2.7` |
+| Licenza | MIT — vedi [`LICENSE`](./LICENSE) |
+| Differenza | Tema `zema` (light/dark, palette Claude/coral) |
+| Package manager | `bun@1.4.4` |
 
 <p align="center">
   <a href="README.md">English</a> |
@@ -39,11 +55,15 @@
   <a href="README.vi.md">Tiếng Việt</a>
 </p>
 
-[![OpenCode Terminal UI](services/site/public/v1/docs/assets/lander/screenshot.png)](https://opencode.ai)
+[![OpenCode Terminal UI](services/site/public/v1/docs/assets/lander/screenshot.png)](https://github.com/zema-tech/openzema)
 
 ---
 
 ### Installation
+
+> [!IMPORTANT]
+> I comandi seguenti installano **OpenCode upstream**, non questo fork.
+> Per usare il tema `zema` devi compilare da sorgente (vedi [Build from source](#build-from-source)).
 
 ```bash
 # YOLO
@@ -61,6 +81,20 @@ nix run github:anomalyco/opencode  # Nix
 
 > [!TIP]
 > Remove versions older than 0.1.x before installing.
+
+### Build from source
+
+Serve [`bun`](https://bun.sh) `1.4.4` (vedi `packageManager` in `package.json`).
+
+```bash
+git clone https://github.com/zema-tech/openzema.git
+cd openzema
+bun install
+bun run dev              # avvia la CLI dal sorgente (packages/cli)
+```
+
+Altri entry point: `bun run dev:web` (interfaccia web), `bun run dev:desktop`, `bun run dev:site`.
+I controlli di qualità sono `bun run check` (lint + typecheck) e `bun run test` a livello di singolo pacchetto (es. `cd packages/ui && bun test src`).
 
 ### Desktop App (BETA)
 
@@ -101,6 +135,8 @@ Learn more about [agents](https://opencode.ai/docs/agents).
 
 For more info on how to configure OpenCode, [**head over to our docs**](https://opencode.ai/docs).
 
+The fork-specific notes live in [`FORK.md`](./FORK.md).
+
 ### Contributing
 
 If you're interested in contributing to OpenCode, please read our [contributing docs](./CONTRIBUTING.md) before submitting a pull request.
@@ -111,4 +147,4 @@ If you are working on a project that's related to OpenCode and is using "opencod
 
 ---
 
-**Join our community** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
+**Upstream community** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
